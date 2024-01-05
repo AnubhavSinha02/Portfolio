@@ -1,10 +1,10 @@
 <div class="header-container">
-    <div class="logo" (click)="goToHome()">Anubhav Sinha</div>
-    <div class="home" (click)="goToHome()">Home</div>
-    <div class="about" (click)="goToAbout()">About</div>
-    <div class="skills" (click)="goToSkills()">Skills</div>
-    <div class="education" (click)="goToEducation()">Education</div>
+    <div class="logo" (click)="goToHome()" routerLink="" fragment="Home">Anubhav Sinha</div>
+    <div class="home" (click)="goToHome()"><a class="link-class" routerLink="" fragment="Home">Home</a></div>
+    <div class="about" (click)="goToAbout()" ><a class="link-class" routerLink="" fragment="About">About</a></div>
+    <div class="skills" (click)="goToSkills()"><a class="link-class" routerLink="" fragment="Skills">Skills</a></div>
+    <div class="education" (click)="goToEducation()"><a class="link-class" routerLink="" fragment="Education">Education</a></div>
     <!-- <div class="work" (click)="goToWork()">Work</div> -->
-    <div class="experiance" (click)="goToExperiance()">Experiance</div>
-    <div class="contact" (click)="goToContact()">Contact</div>
+    <div class="experiance" (click)="goToExperiance()"><a class="link-class" routerLink="" fragment="Experiance">Experiance</a></div>
+    <div class="contact" (click)="goToContact()"><a class="link-class" routerLink="" fragment="Contact">Contact</a></div>
 </div>
