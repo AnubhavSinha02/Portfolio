@@ -1,0 +1,27 @@
+.education-container {
+    padding-top: 200px;
+    padding-left: 330px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    .heading {
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .education-tile {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-left: 10px;
+        width: 750px;
+        .title {
+            font-size: 30px;
+        }
+        .institute {
+            font-size: 25px;
+        }
+        .institute-location {
+            
+        }
+        .timeline {
+            margin-left: 590px;
+        }
+    }
+}

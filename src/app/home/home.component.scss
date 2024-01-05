@@ -1,0 +1,69 @@
+.home-container {
+    position:relative;
+    width:1792px;
+    height:925px;
+    h3 {
+        display: inline;
+        font-size: 45px;
+        font-weight: bolder;
+        font-family: cursive;
+        color: #ed1212;
+    }
+    .intro {
+        position:absolute;
+        align-items: center;
+        height:925px;
+        width:896px;
+        text-align: left;
+        padding: 320px;
+        .name {
+            font-size: 35px;
+        }
+        .media-icons {
+            font-size: 22px;
+            padding-top: 50px;
+            justify-content: space-between;
+            a {
+                padding-right: 20px;
+                size: 150px;
+                .fa {
+                    padding: 20px;
+                    font-size: 160px;
+                    width: 30px;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 50%;
+
+                    .fa-facebook {
+                        background: #3B5998;
+                        color: white;
+                      }
+                      
+                      .fa-twitter {
+                        background: #55ACEE;
+                        color: white;
+                      }
+                  }
+                  .fa:hover {
+                    opacity: 0.7;
+                  }
+                  
+                  
+            }
+        }
+    }
+    .picture-container {
+        height:925px;
+        width:896px;
+        position:absolute;
+        right: 0px;
+        text-align: center;
+        img {
+            padding-top: 30px;
+            object-fit: cover;
+            width: 700px;
+            height: 800px;
+            border-radius: 10%;
+        }
+    }
+}
